@@ -1,0 +1,11 @@
+/*980px*/
+aside{
+	display:none;
+}
+#section_wrapper{
+	float:left;
+	width:100%;;
+}
+#search{
+	margin-bottom:1%;
+}

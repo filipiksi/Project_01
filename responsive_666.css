@@ -1,0 +1,90 @@
+/*666px*/
+#section_wrapper{
+	display:none;
+}
+a:focus {
+    font-weight:normal;
+}
+/*---=== HEADER TOP ===---*/
+.header_top_left{
+	display:none;
+}
+.header_top_middle{
+	width:100%;
+}
+.header_top_right{
+	display:none;
+}
+/*---=== HEADER footer ===---*/
+#header_footer_bottom{
+	/*border:.5px solid red;*/
+}
+.header_footer_left{
+	width:100%;
+	float:none;
+	transform: translateY(100%);
+	margin:0;
+	padding:2%;
+	/*border:.5px solid blue;*/
+	text-align:center;
+}
+#select_dropdown_mob{
+	float:none;
+}
+.header_footer_middle{
+	float:none;
+	transform: translateY(-100%);
+	margin:0 auto;
+	padding:2%;
+	/*border:.5px solid green;*/
+	width:100%;
+}
+#search{
+	padding:.5%;
+}
+.header_footer_right{
+	float:none;
+	margin:0 auto;
+	padding:2%;
+	/*border:.5px solid green;*/
+	width:100%;
+	float:none;
+	text-align:center;
+}
+
+/*---=== ASIDE ===---*/
+aside{
+	display:none;
+}
+.main-nav{
+	margin:3% 0 3% 3%;
+	display:block;
+	z-index:100;
+}
+/*----==== FOOTER ====----*/
+/*footer{
+	position:fixed;
+	left:0px;
+	bottom:0px;
+	height:200px;
+	width:100%;
+	z-index:-100;
+	-- ! This is if you like to FIXED the footer ! --
+}*/
+#footer_block_one{
+	display:none;
+}
+#footer_block_two{
+	display:none;
+}
+#footer_block_three{
+	display:none;
+}
+#mobile_footer{
+	text-align:center;
+	display:block;
+}
+#mobile_footer a{
+	color:black;
+	font-size:90%;
+}

@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8"/>
+	<title>Music Project for Dave</title>
+	<link rel="stylesheet" href="main.css" type="text/css"/>
+	<link rel="stylesheet" href="responsive_980.css" media="screen and (max-width:980px)">
+	<link rel="stylesheet" href="responsive_830.css" media="screen and (max-width:830px)">
+	<link rel="stylesheet" href="responsive_666.css" media="screen and (max-width:666px)">
+</head>
+<body>
+	<div id="container">
+	<header>
+		<div id="header_top"><!--TOP!-->
+			<div class="header_top_left">
+				<ul>
+					<li><a href="#">F&Q </a></li>
+					<li><a href="#">Help</a></li>
+					<li><a href="#">About</a></li>
+				</ul>
+			</div>
+			<div class="header_top_middle">
+				<h2>Musc Factories</h2>
+			</div>
+			<div class="header_top_right">
+				<ul>
+					<li><a href="#">Login</a></li>
+					<li><a href="#">Sign up</a></li>
+					<li><a href="#">Post</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="header_footer_bottom"><!--BOTTOM!-->
+			<div class="header_footer_left"><!--DROPDOWN FOR LOCATION / hidden, star from 900px-->
+				<select id="select_dropdown_mob">
+						<option value="All in UK">All in UK</option>
+						<option value="Bedfordshire">Bedfordshire</option>
+						<option value="Berkshire">Berkshire</option>
+						<option value="Bristol">Bristol</option>
+						<option value="Buckinghamshire">Buckinghamshire</option>
+						<option value="Cambrideshire">Cambrideshire</option>
+						<option value="Cheshire">Cheshire</option>
+						<option value="Cornwall">Cornwall</option>
+						<option value="C.Durham">C.Durham</option>
+						<option value="Cumbria">Cumbria</option>
+						<option value="Derbyshire">Derbyshire</option>
+						<option value="Devon">Devon</option>
+						<option value="Dorset">Dorset</option>
+						<option value="East Sussex">East Sussex</option>
+						<option value="East Yorkshire">East Yorkshire</option>
+						<option value="Essex">Essex</option>
+						<option value="Gloucestershire">Gloucestershire</option>
+						<option value="Hampshire">Hampshire</option>
+						<option value="Herefordshire">Herefordshire</option>
+						<option value="Hertfordshire">Hertfordshire</option>
+						<option value="Isle of Wight">Isle of Wight</option>
+						<option value="Kent">Kent</option>
+						<option value="Lancashire">Lancashire</option>
+						<option value="Lincolnshire">Lincolnshire</option>
+						<option value="London">London</option>
+						<option value="Manchester">Manchester</option>
+						<option value="Merseyside">Merseyside</option>
+						<option value="Norfolk">Norfolk</option>
+						<option value="North Yorkshire">North Yorkshire</option>
+						<option value="Northamptonshire">Northamptonshire</option>
+						<option value="Northumberland">Northumberland</option>
+						<option value="Nottinghamshire">Nottinghamshire</option>
+						<option value="Oxfordshire">Oxfordshire</option>
+						<option value="Rutland">Rutland</option>
+						<option value="Shropshire">Shropshire</option>
+						<option value="Somerse">Somerset</option>
+						<option value="South Yorkshire">South Yorkshire</option>
+						<option value="Staffordshire">Staffordshire</option>
+						<option value="Suffolk">Suffolk</option>
+						<option value="Surrey">Surrey</option>
+						<option value="Tyne and Wear">Tyne and Wear</option>
+						<option value="Warwickshire">Warwickshire</option>
+						<option value="West Midlands">West Midlands</option>
+						<option value="West Sussex">West Sussex</option>
+						<option value="West Yorkshire">West Yorkshire</option>
+						<option value="Wiltshere">Wiltshere</option>
+						<option value="Worcestershere">Worcestershere</option>
+				</select>	
+			</div><!--DROPDOWN FOR LOCATION-->
+			<div class="header_footer_middle"><!--SEARCH BOX-->
+				<form>
+					<input type="text" id="search" name="search" placeholder="Search..">
+				</form>
+			</div><!--END SEARCH BOX-->
+			<div class="header_footer_right"><!--DROPDOWN FOR CATEGORIES / hidden, start from 600px-->
+				<select id="select_categories_mob">
+						<option value="for sale">For Sale</option>
+						<option value="motors">Motors</option>
+						<option value="jobs">Jobs</option>
+						<option value="community">Community</option>
+						<option value="property">Property</option>
+						<option value="services">Services</option>
+						<option value="pets">Pets</option>
+						<option value="personals">Personals</option>
+						<option value="forums">Forums</option>
+				</select>
+			</div><!--END DROPDOWN FOR CATEGORIES-->
+		</div>
+	</header>
+	<nav class="main-nav"><!--START NAVIGATION MENU-->
+			<ul class="main-nav-ul">
+				<li><a href="#">FOR SALE</a>
+					<ul>
+						<li><a href="#">Audio/Stereo</a></li>
+						<li><a href="#">Baby/Kits Stuff</a></li>
+						<li><a href="#">Categories</a></li>
+						<li><a href="#">Cameras</a></li>
+						<li><a href="#">Clotes/Footweat</a></li>
+						<li><a href="#">Computers/Software</a></li>
+						<li><a href="#">Phones/Mobiles</a></li>
+						<li><a href="#">Other</a></li>
+						<li><a href="#">Wanted</a></li>
+					</ul>
+				</li>
+				<li><a href="#">MOTORS</a>
+					<ul>
+						<li><a href="#">Accessories</a></li>
+						<li><a href="#">Campervans/Motorhomes</a></li>
+						<li><a href="#">Cars</a></li>
+						<li><a href="#">Motorbikes/Scooters</a></li>
+						<li><a href="#">Parts</a></li>
+						<li><a href="#">Plant/Tractors</a></li>
+						<li><a href="#">Trucks</a></li>
+						<li><a href="#">Vans</a></li>
+						<li><a href="#">Wanted</a></li>					
+					</ul>
+				</li>
+				<li><a href="#">JOBS</a>
+					<ul>
+						<li><a href="#">Accountancy</a></li>
+						<li><a href="#">Admin/Secretarial</a></li>
+						<li><a href="#">Bar Staff/Management</a></li>
+						<li><a href="#">Charity/Voluntary</a></li>
+						<li><a href="#">Computing/IT</a></li>
+						<li><a href="#">Construction/Property</a></li>
+						<li><a href="#">Financial/Insurance</a></li>
+						<li><a href="#">Wanted</a></li>
+					</ul>
+				</li>
+				<li><a href="#">COMMUNITY</a>
+					<ul>
+						<li><a href="#">Artists/Theatres</a></li>
+						<li><a href="#">Events/Gigs/Nightlife</a></li>
+						<li><a href="#">Groups/Associations</a></li>
+						<li><a href="#">Music/Bands/Musicians</a></li>
+						<li><a href="#">Rideshare/Car Pooling</a></li>
+						<li><a href="#">Skills/Language Swap</a></li>
+						<li><a href="#">Sports Teams/Partners</a></li>
+						<li><a href="#">Travel/Travel Partners</a></li>
+						<li><a href="#">Lost/Found Stuff</a></li>
+						<li><a href="#">Partners</a></li>						
+					</ul>
+				</li>
+				<li><a href="#">PROPERTY</a>
+					<ul>
+						<li><a href="#">To Rent</a></li>
+						<li><a href="#">Offered</a></li>
+						<li><a href="#">Wanted</a></li>
+						<li><a href="#">To Share</a></li>
+						<li><a href="#">For Sale</a></li>
+						<li><a href="#">Flats</a></li>
+						<li><a href="#">Houses</a></li>
+					</ul>
+				</li>
+				<li><a href="#">SERVICES</a>
+					<ul>
+						<li><a href="#">Business/Office</a></li>
+						<li><a href="#">Childcare</a></li>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Entertainment</a></li>
+						<li><a href="#">Food/Drink</a></li>
+						<li><a href="#">Health/Beauty</a></li>
+						<li><a href="#">Weddings</a></li>
+					</ul>
+				</li>
+				<li><a href="#">PETS</a>
+					<ul>
+						<li><a href="#">Equipment/Accessories</a></li>
+						<li><a href="#">Missing/Lost/Found</a></li>
+						<li><a href="#">Pets for Sale</a></li>
+					</ul>
+				</li>
+				<li><a href="#">PERSONALS</a>
+				<ul>
+						<li><a href="#">Strictli platonic</a></li>
+						<li><a href="#">Women seek women</a></li>
+						<li><a href="#">Women seeking man</a></li>
+						<li><a href="#">Man seeking women</a></li>
+						<li><a href="#">Man seeking men</a></li>
+						<li><a href="#">Musc romance</a></li>
+						<li><a href="#">Cesual encounters</a></li>
+						<li><a href="#">Mised connections</a></li>
+						<li><a href="#">Rants and raves</a></li>
+					</ul>
+				</li>
+				<li><a href="#">FORUMS</a></li>
+			</ul>
+	</nav><!--END NAVIGATION MENU-->
+	<div id="section_wrapper"><!------==== START SECTION ====------>
+	<section id="section_top">
+			<article class="one">
+					<a href="#"><h3 class="headSale">FOR SALE</h3></a>
+					<ul>
+						<li><a href="#">Audio/Stereo</a></li>
+						<li><a href="#">Baby/Kits Stuff</a></li>
+						<li><a href="#">Categories</a></li>
+						<li><a href="#">Cameras</a></li>
+						<li><a href="#">Clotes/Footweat</a></li>
+						<li><a href="#">Computers/Software</a></li>
+						<li><a href="#">Phones/Mobile</a></li>
+						<li><a href="#">Other</a></li>
+						<li><a href="#">Wanted</a></li>
+					</ul>
+			</article>
+			<article class="two">
+					<a href="#"><h3 class="headMotors">MOTORS</h3></a>
+					<ul>
+						<li><a href="#"><span class="span_moto_one">Accessories</span></a></li>
+						<li><a href="#"><span class="span_moto_one">Campervans</span></a></li>
+						<li><a href="#"><span class="span_moto_two">Cars</span></a></li>
+						<li><a href="#">Motorbikes/Scooters</a></li>
+						<li><a href="#"><span class="span_moto_two">Parts</span></a></li>
+						<li><a href="#"><span class="span_moto_one">Plant/Tractors</span></a></li>
+						<li><a href="#"><span class="span_moto_two">Trucks</span></a></li>
+						<li><a href="#"><span class="span_moto_two">Vans</span></a></li>
+						<li><a href="#"><span class="span_moto_two">Wanted</span></a></li>					
+					</ul>
+			</article>
+			<article class="three">
+					<a href="#"><h3 class="headJobs">JOBS</h3></a>
+					<ul>
+						<li><a href="#"><span class="span_jobs_two">Accountancy</span></a></li>
+						<li><a href="#">Admin/Secretarial</a></li>
+						<li><a href="#">Bar Staff/Management</a></li>
+						<li><a href="#">Charity/Voluntary</a></li>
+						<li><a href="#"><span class="span_jobs_two">Computing/IT</span></a></li>
+						<li><a href="#">Construction/Property</a></li>
+						<li><a href="#">Financial/Insurance</a></li>
+						<li><a href="#"><span class="span_jobs_one">Wanted</span></a></li>
+					</ul>
+			</article>
+			<article class="four">
+					<a href="#"><h3 class="headCommunity">COMMUNITY</h3></a>
+					<ul>
+						<li><a href="#">Artists/Theatres</a></li>
+						<li><a href="#">Events/Gigs/Nightlife</a></li>
+						<li><a href="#">Groups/Associations</a></li>
+						<li><a href="#">Music/Bands/Musicians</a></li>
+						<li><a href="#">Rideshare/Car Pooling</a></li>
+						<li><a href="#">Skills/Language Swap</a></li>
+						<li><a href="#">Sports Teams/Partners</a></li>
+						<li><a href="#">Travel/Travel Partners</a></li>
+						<li><a href="#">Lost/Found Stuff</a></li>
+						<li><a href="#">Partners</a></li>						
+					</ul>
+			</article>
+		</section><!--END SECTION / section_top-->
+		<section id="section_middle">
+			<article class="five">
+					<a href="#"><h3 class="headProperty">PROPERTY</h3></a>
+					<ul>
+						<li><a href="#">To Rent</a></li>
+						<li><a href="#">Offered</a></li>
+						<li><a href="#">Wanted</a></li>
+						<li><a href="#">To Share</a></li>
+						<li><a href="#">For Sale</a></li>
+						<li><a href="#">Flats</a></li>
+						<li><a href="#">Houses</a></li>
+					</ul>
+			</article>
+			<article class="six">
+					<a href="#"><h3 class="headServices">SERVICES</h3></a>
+					<ul>
+						<li><a href="#">Business/Office</a></li>
+						<li><a href="#">Childcare</a></li>
+						<li><a href="#">Clothing</a></li>
+						<li><a href="#">Entertainment</a></li>
+						<li><a href="#">Food/Drink</a></li>
+						<li><a href="#">Health/Beauty</a></li>
+						<li><a href="#">Weddings</a></li>
+					</ul>
+			</article>
+			<article class="seven">
+					<a href="#"><h3 class="headPersonals">Personals</h3></a>
+					<ul>
+						<li><a href="#">Strictli platonic</a></li>
+						<li><a href="#">Women seek women</a></li>
+						<li><a href="#">Women seeking man</a></li>
+						<li><a href="#">Man seeking women</a></li>
+						<li><a href="#">Man seeking men</a></li>
+						<li><a href="#">Musc romance</a></li>
+						<li><a href="#">Cesual encounters</a></li>
+						<li><a href="#">Mised connections</a></li>
+						<li><a href="#">Rants and raves</a></li>
+					</ul>
+			</article>
+			<article class="eith">
+					<a href="#"><h3 class="headPersonals">Pets</h3></a>
+					<ul>
+						<li><a href="#">Equipment/Accessories</a></li>
+						<li><a href="#">Missing/Lost/Found</a></li>
+						<li><a href="#">Pets for Sale</a></li>
+					</ul>
+			</article>
+		</section><!--END SECTION / section_middle-->
+		<section id="section_bottom">
+			<article class="nine">
+				<a href="#"><h3 class="headForums">Forums</h3></a>
+						<ul class="ul-left">
+							<li><a href="#">Apple</a></li>
+							<li><a href="#">Arts</a></li>
+							<li><a href="#">Atheis</a></li>
+							<li><a href="#">Autos</a></li>
+							<li><a href="#">Beauty</a></li>
+							<li><a href="#">Bikes</a></li>
+							<li><a href="#">Celebs</a></li>
+							<li><a href="#">Computers</a></li>
+							<li><a href="#">Crafits</a></li>
+							<li><a href="#">Diet</a></li>
+							<li><a href="#">Divorce</a></li>
+							<li><a href="#">Dying</a></li>
+							<li><a href="#">Ecology</a></li>
+							<li><a href="#">Education</a></li>
+						</ul>
+						<ul class="ul-middle1">
+							<li><a href="#">Feedbek</a></li>
+							<li><a href="#">Film</a></li>
+							<li><a href="#">Fitnes</a></li>
+							<li><a href="#">Fixit</a></li>
+							<li><a href="#">Food</a></li>
+							<li><a href="#">Frugal</a></li>
+							<li><a href="#">Gaming</a></li>
+							<li><a href="#">Garden</a></li>
+							<li><a href="#">Haiku</a></li>
+							<li><a href="#">Help</a></li>
+							<li><a href="#">History</a></li>
+							<li><a href="#">Housing</a></li>
+							<li><a href="#">Jobs</a></li>
+							<li><a href="#">Jokes</a></li>
+						</ul>
+						<ul class="ul-middle2">
+							<li><a href="#">Kink</a></li>
+							<li><a href="#">Legal</a></li>
+							<li><a href="#">Linuc</a></li>
+							<li><a href="#">M4M</a></li>
+							<li><a href="#">Manners</a></li>
+							<li><a href="#">Marriage</a></li>
+							<li><a href="#">Media</a></li>
+							<li><a href="#">Money</a></li>
+							<li><a href="#">Motocy</a></li>
+							<li><a href="#">Music</a></li>
+							<li><a href="#">Non-profit</a></li>
+							<li><a href="#">Open</a></li>
+							<li><a href="#">Outdoor</a></li>
+							<li><a href="#">Over 50</a></li>
+						</ul>
+						<ul class="ul-middle3">
+							<li><a href="#">Parent</a></li>
+							<li><a href="#">Pets</a></li>
+							<li><a href="#">Linuc</a></li>
+							<li><a href="#">Philos</a></li>
+							<li><a href="#">Photo</a></li>
+							<li><a href="#">P.O.C</a></li>
+							<li><a href="#">Politics</a></li>
+							<li><a href="#">Psych</a></li>
+							<li><a href="#">Queer</a></li>
+							<li><a href="#">Recover</a></li>
+							<li><a href="#">Religion</a></li>
+							<li><a href="#">Romance</a></li>
+							<li><a href="#">Science</a></li>
+							<li><a href="#">Spirit</a></li>
+						</ul>
+						<ul class="ul-right">
+							<li><a href="#">Sports</a></li>
+							<li><a href="#">Tax</a></li>
+							<li><a href="#">Travel</a></li>
+							<li><a href="#">TV</a></li>
+							<li><a href="#">Vegan</a></li>
+							<li><a href="#">W4W</a></li>
+							<li><a href="#">Wed</a></li>
+							<li><a href="#">Wine</a></li>
+							<li><a href="#">Women</a></li>
+							<li><a href="#">Words</a></li>
+							<li><a href="#">Writing</a></li>
+							<li><a href="#">Yoga</a></li>
+						</ul>
+			</article>
+		</section><!--END SECTION / section_bottom-->
+		</div><!------==== END SECTION ====------>
+	<aside><!--START ASIDE on Left side-->
+		<div id="asside_location">
+			<h3>Location</h3>
+			<ul class="city-asside-box">
+					<li><a href="#">All of England</a></li>
+					<li><a href="#">Bedfordshire</a></li>
+					<li><a href="#">Berkshire</a></li>
+					<li><a href="#">Bristol</a></li>
+					<li><a href="#">Buckinghamshire</a></li>
+					<li><a href="#">Cambrideshire</a></li>
+					<li><a href="#">Cheshire</a></li>
+					<li><a href="#">Cornwall</a></li>
+					<li><a href="#">Country Durham</a></li>
+					<li><a href="#">Cumbria</a></li>
+					<li><a href="#">Derbyshire</a></li>
+					<li><a href="#">Devon</a></li>
+					<li><a href="#">Dorset</a></li>
+					<li><a href="#">East Sussex</a></li>
+					<li><a href="#">East Yorkshire</a></li>
+					<li><a href="#">Essex</a></li>
+					<li><a href="#">Gloucestershire</a></li>
+					<li><a href="#">Hampshire</a></li>
+					<li><a href="#">Herefordshire</a></li>
+					<li><a href="#">Hertfordshire</a></li>
+					<li><a href="#">Isle of Wight</a></li>
+					<li><a href="#">Kent</a></li>
+					<li><a href="#">Lancashire</a></li>
+					<li><a href="#">Leicestershire</a></li>
+					<li><a href="#">Lincolnshire</a></li>
+					<li><a href="#">London</a></li>
+					<li><a href="#">Manchester</a></li>
+					<li><a href="#">Merseyside</a></li>
+					<li><a href="#">Norfolk</a></li>
+					<li><a href="#">North Yorkshire</a></li>
+					<li><a href="#">Northamptonshire</a></li>
+					<li><a href="#">Northumberland</a></li>
+					<li><a href="#">Nottinghamshire</a></li>
+					<li><a href="#">Oxfordshire</a></li>
+					<li><a href="#">Rutland</a></li>
+					<li><a href="#">Shropshire</a></li>
+					<li><a href="#">Somerset</a></li>
+					<li><a href="#">South Yorkshire</a></li>
+					<li><a href="#">Staffordshire</a></li>
+					<li><a href="#">Suffolk</a></li>
+					<li><a href="#">Surrey</a></li>
+					<li><a href="#">Tyne and Wear</a></li>
+					<li><a href="#">Warwickshire</a></li>
+					<li><a href="#">West Midlands</a></li>
+					<li><a href="#">West Sussex</a></li>
+					<li><a href="#">West Yorkshire</a></li>
+					<li><a href="#">Wiltshere</a></li>
+					<li><a href="#">Worcestershere</a></li>
+				</ul>
+		</div>
+	</aside><!--END ASIDE-->
+	<footer>
+		<div id="footer_block_one">
+			<h4>Name of the page</h4>
+				<p>Copyright © 2016 MusicFactory, Inc.</br>
+				All rights reserved.</br>
+				Name of the page is a trademark of name of the page, Inc.</p>
+		</div>
+		<div id="footer_block_two">
+			<h4 class="joinUs">Join us</h4>
+				<ul>
+					<li><a href="#">Audience<a/></li>
+					<li><a href="#">Community<a/></li>
+					<li><a href="#">Careers<a/></li>
+					<li><a href="#">Press Contact<a/></li>
+				</ul>
+		</div>
+		<div id="footer_block_three">
+			<h4 class="more">More From Us</h4>
+				<ul>
+					<li><a href="#">Blog<a/></li>
+					<li><a href="#">Car Price Index<a/></li>
+					<li><a href="#">Our Partners<a/></li>
+					<li><a href="#">How to sell<a/></li>
+				</ul>
+		</div>
+		<!------ !!! ONLY FOR MOBILE VERSION 666px !!! ------>
+		<div id="mobile_footer">
+			<div class="mobile_nav">
+				<ul>
+					<li><a href="#">F&Q <a/></li>
+					<li><a href="#">Help<a/></li>
+					<li><a href="#">About<a/></li>
+					<li><a href="#">Post<a/></li>
+					<li><a href="#">Sign Up<a/></li>
+					<li><a href="#">Login<a/></li>
+					<li><a href="#">Careers<a/></li>
+					<li><a href="#">Contact<a/></li>
+				</ul>
+			</div>
+			<p class="p-mob">Copyright © 2016 MusicFactory, Inc.</p>
+		</div>
+	</footer>
+	</div>
+</body>
+</html>

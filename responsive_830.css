@@ -1,0 +1,37 @@
+/*830px*/
+body{
+	font-size:80%;
+}
+#section_top{
+	height:auto;
+}
+.one,.two,.three,.four{
+	width:50%;
+	height:auto;
+}
+.one,.two{
+	margin-bottom:4%;
+}
+.one ul li:hover,.two ul li:hover,.three ul li:hover,.four ul li:hover{
+	font-weight:bold;
+}
+#section_middle{
+	height:auto;
+}
+.five,.six,.seven,.eith{
+	width:50%;
+	height:auto;
+}
+.five,.six{
+	margin-bottom:4%;
+}
+.five ul li:hover,.six ul li:hover,.seven ul li:hover,.eith ul li:hover{
+	font-weight:bold;
+}
+/*SECTION BOTTOM*/
+.nine{
+	height:auto;
+}
+.nine ul a:hover{
+	font-weight:bold;
+}
